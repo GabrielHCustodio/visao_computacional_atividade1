@@ -6,12 +6,12 @@ Este repositório contém a implementação de quatro exercícios práticos dese
 
 A organização atual dos arquivos no diretório é a seguinte:
 
+```text
 .
 ├── img/
-│   ├── imagem.jpg
 │   ├── fundo.jpg
+│   ├── imagem.jpg
 │   └── pessoa.jpg
-│
 ├── formula_convolucao.py
 ├── main.exe
 ├── main.py
@@ -19,25 +19,29 @@ A organização atual dos arquivos no diretório é a seguinte:
 ├── q2_subtracao.py
 ├── q3_high_boost.py
 ├── q4_convolucao.py
-└── README.
-
+└── README.md
+```
 ---
 
 ## ⚙️ Pré-requisitos e Instalação
 
 Certifique-se de ter o Python 3.12 (ou superior) instalado. Siga os passos abaixo para clonar o repositório, criar um ambiente virtual (venv) e instalar as dependências necessárias no Windows:
 
+```text
 1. Clone este repositório e acesse a pasta:
    git clone https://github.com/GabrielHCustodio/visao_computacional_atividade1.git
    cd visao_computacional_atividade1
+```
 
+```text
 2. Crie e ative o ambiente virtual (venv):
    python -m venv venv
    venv\Scripts\activate
-
+```
+```text
 3. Instale as dependências necessárias:
    pip install opencv-python numpy matplotlib scipy
-
+```
 ---
 
 ## 🖼️ Preparação dos Dados (Imagens)
@@ -51,10 +55,10 @@ Atenção à personalização e extensões dos arquivos:
 Por padrão, os exercícios 1, 3 e 4 utilizam a mesma imagem base (imagem.jpg). Caso deseje adicionar e utilizar uma imagem diferente para um exercício específico (por exemplo, usar uma foto na Q3 diferente da Q1), ou se a sua imagem tiver outra extensão (como .png), o caminho deve ser alterado diretamente no código do script necessário (ex: q3_high_boost.py).
 
 Exemplo de alteração no código:
-# Como está no código original:
+### Como está no código original:
 image_path = "img/imagem.jpg"
 
-# Como deve ficar se você quiser usar uma foto exclusiva ou em PNG na Q3:
+### Como deve ficar se você quiser usar uma foto exclusiva ou em outro formato (ex: PNG) :
 image_path = "img/imagem2.png"
 
 ---
